@@ -1,3 +1,10 @@
-n=int(input())
-for i in range(1,n+1):
-	 print (((10 ** i - 1) // 9) ** 2)
+a=list()
+while 1:
+	item=input("Enter the item ")
+	a.append(item)
+	n=input("Do you want to continue Y/N ")
+	if n.lower() == 'n':
+		break
+a.sort(reverse=True,key=max)
+
+print(a[0])
