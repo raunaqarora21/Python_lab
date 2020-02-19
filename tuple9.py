@@ -1,0 +1,5 @@
+a=tuple(eval(input()))
+d=eval(str(a))
+d[-1].append(100)
+print(d)
+print(a)
