@@ -19,8 +19,10 @@ while(y<(n-1)):
         
     else:
          y+=1
-         
-if l[-1]<l[-2]:
-    l.remove(l[-1])
+
+if len(l)>1:
+     
+     if l[-1]<l[-2]:
+         l.remove(l[-1])
 
 print(len(l))
